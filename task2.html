@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-image: url(./img1.jpg);
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: cover;
+            display: flex;
+            align-items: center;
+            justify-content:space-around;
+
+        }
+       
+        .container{
+            width: 180px;
+            height: 180px;
+            background-color: red;
+            border-radius: 10px;
+            cursor: pointer;
+            box-shadow: 5px 5px 5px black;
+        }
+        .container:hover{
+            scale: 1.05;
+            h2{
+                display: block;
+                color: darkred
+               
+            } 
+
+        }
+        h2{
+            display: none;
+        }
+        .one{
+            background-image: url(./home2.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            position: absolute;
+            top: 40px;
+            display: flex;
+            align-items: center;
+            justify-content:center;
+        }
+        .two{
+            background-image: url(./about2.jpg);
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+            position: absolute;
+            top: 320px;
+            display: flex;
+            align-items: center;
+            justify-content:center;
+            
+        }
+        .three{
+            background-image: url(./project.avif);
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+            position: absolute;
+            top: 40px;
+            right: 150px;
+            display: flex;
+            align-items: center;
+            justify-content:center;
+
+        }
+        .four{
+            background-image: url(./exit3.jpeg);
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+            position: absolute;
+            top: 320px;
+            right: 150px;
+            display: flex;
+            align-items: center;
+            justify-content:center;
+        }
+       marquee{
+       position: absolute;
+       top: 320px;
+       }
+    </style>
+</head>
+<body>
+   <marquee behavior="" direction="right"> <h1>VIJAY THALAPATHI</h1></marquee>
+   <div class="container one"><h2>HOME</h2></div>
+    <div class="container two"><h2>ABOUT</h2></div>
+   <div class="container three"><h2>PROJECT</h2></div>
+    <div class="container four"><h2>EXIT</h2></div>
+   
+</body>
+</html>
